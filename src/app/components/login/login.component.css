@@ -1,0 +1,9 @@
+form {
+    transition: opacity 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55), transform 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.fade-in-out-enter,
+.fade-in-out-leave-to {
+    opacity: 0;
+    transform: scale(0.8);
+}
