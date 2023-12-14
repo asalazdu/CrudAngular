@@ -56,10 +56,3 @@
     width: 100%;
     padding: 10px;
 }
-
-.activebutton {
-    /* Estilos para el enlace activo */
-    color: red;
-    /* Puedes personalizar esto según tus preferencias */
-    font-weight: bold;
-}
