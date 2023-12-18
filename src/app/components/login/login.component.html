@@ -1,3 +1,13 @@
+<div class="circle" [@buttonAnimation]="buttonState"></div>
+  <div class="text-content">
+    <h3>¡Listo para comenzar!</h3>
+    <p>Ingresa el correo electrónico que usaste para crear la cuenta y la contraseña que elegiste.</p>
+  </div>
+
+<div class="menu-button-container" [@buttonAnimation]="buttonState">
+  <button (click)="redirectToHome()" class="btn btn-secondary">Menú</button>
+</div>
+
 <div class="container">
   <div class="row justify-content-end">
     <div class="col-md-6">
