@@ -20,6 +20,7 @@
     text-align: center;
     color: #fff;
     width: 25%;
+    transition: opacity 0.7s ease-out;
 }
 
 .text-content h3 {
@@ -54,6 +55,18 @@
 .menu-button-container button:hover {
     background-color: #fff;
     color: #090ddb;
+}
+
+.imgLogin {
+    position: absolute;
+    top: 165%;
+    left: 30%;
+    opacity: 0.6;
+    transition: opacity 0.7s ease-out;
+}
+
+.text-content.clicked .imgLogin {
+    opacity: 0;
 }
 
 .form-container {

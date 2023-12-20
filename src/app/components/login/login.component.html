@@ -1,9 +1,9 @@
 <div class="circle" [@buttonAnimation]="buttonState"></div>
-  <div class="text-content">
+  <div class="text-content" [@textAnimation]="buttonState">
     <h3>¡Listo para comenzar!</h3>
     <p>Ingresa el correo electrónico que usaste para crear la cuenta y la contraseña que elegiste.</p>
+    <img src="assets/img/login.png" alt="login" class="imgLogin">
   </div>
-
 <div class="menu-button-container" [@buttonAnimation]="buttonState">
   <button (click)="redirectToHome()" class="btn btn-secondary">Menú</button>
 </div>
