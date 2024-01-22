@@ -13,7 +13,7 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
         opacity: 1,
       })),
       state('clicked', style({
-        transform: 'translateX(100%)',
+        transform: 'translateX(-100%)',
         opacity: 0,
       })),
       transition('initial => clicked', animate('900ms ease-out')),

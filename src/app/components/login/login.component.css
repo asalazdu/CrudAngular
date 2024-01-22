@@ -8,7 +8,6 @@
     position: fixed;
     left: -215px;
     bottom: 20.5%;
-    overflow: hidden;
     transform: translateY(-50%) rotate(78deg);
 }
 
