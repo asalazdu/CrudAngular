@@ -1,12 +1,12 @@
 <div class="content-container">
-    <div class="circleRegister"> </div>
+    <div class="circleRegister" [@buttonAnimation]="buttonState"> </div>
     <div class="text-contentRegister">
         <h3>¡Listo para comenzar!</h3>
         <p>Listo para comenzar juntos este maravilloso viaje, registrate !!</p>
         <img src="assets/img/Register.png" alt="register" class="imgRegister">
     </div>
-    <div class="button-menuRegister">
-        <button class="btn btn-secondary">Regresar</button>
+    <div class="button-menuRegister" [@buttonAnimation]="buttonState">
+        <button (click)="redirectToLogin()" class="btn btn-secondary">Regresar</button>
     </div>
 
     <div class="container">
